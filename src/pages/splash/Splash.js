@@ -9,7 +9,7 @@ const Splash = () => {
     {/* <img src={waldoImage} alt="waldoImage" style={{position: "absolute", top: "25px", left: "25px", zIndex: "2"}}></img> */}
       <nav>
         <NavLink to="/home">
-          <img src={waldoImage} alt="waldoImage" style={{ height: "150px", position: "absolute", top: "250px", right: "250px", zIndex: "2" }}></img>
+          <img src={waldoImage} alt="waldoImage" style={{ height: "50px", position: "absolute", bottom: "200px", right: "250px", zIndex: "2" }}></img>
         </NavLink>
       </nav>
     </>

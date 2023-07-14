@@ -17,7 +17,7 @@ const Contact = ({ name, email, location }) => {
             <Form />
           </div> */}
           <div className="col-12 col-lg-6">
-            <ContactInfo name="Teresa Cowden" location={location} email="teresacowden@gmail.com" />
+            <ContactInfo name="Teresa Cowden" location={location} email="tcow00@gmail.com" />
           </div>
         </div>
       {/* </div> */}

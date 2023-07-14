@@ -8,7 +8,7 @@ const About = ({ name, location, brand, email, availability }) => {
     <>
     <Header />
     <section className="about">
-      <PageHeader title="About me" description="Coming Soon..." />
+      <PageHeader title="About me"/>
       <AboutMe name={name} location={location} brand={brand} email={email} availability={availability} />
     </section>
     </>
