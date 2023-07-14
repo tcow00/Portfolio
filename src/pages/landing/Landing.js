@@ -50,20 +50,20 @@ const Landing = ({ name }) => {
         <h1 className="name" style={styles.name}>
           {name}
         </h1>
-        <div className="description">
+        <div className="description" style={{margin: "50px"}}>
           <Typewriter
             className="description"
             onInit={(typewriter) => {
               typewriter
                 .changeDelay(80)
-                .typeString("I'm a Dweeb Ass")
+                  .typeString("What makes you stand out in a crowd? Your familiar style is probably not as loud as an unsightly sweater, merry stocking cap, and a pair of iconic round specs. Or, maybe it is. Whatever your company's “thing,” my expertise is making sure your target audience can’t unsee it.")
                 .pauseFor(1500)
-                .deleteAll()
-                .typeString("Sleep. ")
-                .pauseFor(500)
-                .typeString("Eat. ")
-                .pauseFor(500)
-                .typeString("Repeat.")
+                // .deleteAll()
+                // .typeString("Sleep. ")
+                // .pauseFor(500)
+                // .typeString("Eat. ")
+                // .pauseFor(500)
+                // .typeString("Repeat.")
 
                 .start();
             }}

@@ -3,7 +3,7 @@ import AnimatedRoutes from "./components/AnimatedRoutes";
 
 function App() {
   const personalDetails = {
-    name: "Teresa Cowden",
+    name: "Hey, you found me!",
     location: "Chicago, IL",
     email: "t.monster@gmail.com",
     availability: "Open for work",

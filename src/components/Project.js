@@ -36,15 +36,15 @@ const Project = ({ technologies, title, image, color, id, github, deployed, desc
         onClick={handleOpenModal}
       >
         <div className="textWrap col-6 d-flex flex-column justify-content-center align-items-center m-5">
-          <p className="tech">
+          {/* <p className="tech">
             <em>{technologies}</em>
-          </p>
+          </p> */}
           <h3 className="projectTitle">{title}</h3>
           <span className="viewWork">View Work &#8594;</span>
         </div>
-        <div className="imageContainer col-6 d-flex align-items-center justify-content-center">
+        {/* <div className="imageContainer col-6 d-flex align-items-center justify-content-center">
           <img src={image} alt="Laptop displaying the application" />
-        </div>
+        </div> */}
       </div>
       <Modal
         isOpen={showModal}
@@ -70,9 +70,9 @@ const Project = ({ technologies, title, image, color, id, github, deployed, desc
         <img src={closeModal} className="closeMenu closeModal" onClick={handleCloseModal} alt="Close"></img>
         <h3 className="modalTitle">{title}</h3>
         <p className="projectDescription">{description}</p>
-        <button className="btn" onClick={() => (window.location.href = github)}>
+        {/* <button className="btn" onClick={() => (window.location.href = github)}>
           GitHub Repo
-        </button>
+        </button> */}
         <button className="btn" onClick={() => (window.location.href = deployed)}>
           Live Link
         </button>

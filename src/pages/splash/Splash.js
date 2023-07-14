@@ -1,13 +1,15 @@
 import { NavLink } from "react-router-dom";
 import splashImage from "../../images/splash.png";
+import waldoImage from "../../images/waldo.png";
 
 const Splash = () => {
   return (
     <>
-    <img src={splashImage} alt="splashImage" style={{height: "100%", width: "100%"}}></img>
+    <img src={splashImage} alt="splashImage" style={{height: "100%", width: "100%", zIndex: "1"}}></img>
+    {/* <img src={waldoImage} alt="waldoImage" style={{position: "absolute", top: "25px", left: "25px", zIndex: "2"}}></img> */}
       <nav>
         <NavLink to="/home">
-          Home
+          <img src={waldoImage} alt="waldoImage" style={{ height: "150px", position: "absolute", top: "250px", right: "250px", zIndex: "2" }}></img>
         </NavLink>
       </nav>
     </>
@@ -15,3 +17,17 @@ const Splash = () => {
 };
 
 export default Splash;
+
+
+
+// img {
+//   position: absolute;
+//   top: 25px;
+//   left: 25px;
+// }
+// .imgA1 {
+//   z - index: 1;
+// }
+// .imgB1 {
+//   z - index: 3;
+// }

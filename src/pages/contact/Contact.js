@@ -11,17 +11,17 @@ const Contact = ({ name, email, location }) => {
     <Header />
     <section className="contact">
       <PageHeader title="Contact" description="Get in touch" />
-      <div className="contactWrap container">
-        <div className="row">
-          <div className="col-12 col-lg-6">
+      <div className="contactWrap container" style={{display: "flex", justifyContent: "center"}}>
+        {/* <div className="row"> */}
+          {/* <div className="col-12 col-lg-6">
             <Form />
-          </div>
+          </div> */}
           <div className="col-12 col-lg-6">
-            <ContactInfo name={name} location={location} email={email} />
+            <ContactInfo name="Teresa Cowden" location={location} email="teresacowden@gmail.com" />
           </div>
         </div>
-      </div>
-      <SocialIcons />
+      {/* </div> */}
+      {/* <SocialIcons /> */}
     </section>
     </>
   );

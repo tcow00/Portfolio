@@ -31,7 +31,21 @@ const AboutMe = ({ name, email, location, availability, brand }) => {
   // };
 
   return (
-    <p style={{ color: "grey" }}>Stay tuned for updates!</p>
+    <p style={{ color: "grey", margin: "50px", fontSize: "25px"}}><p>I'm Teresa, lover of stories and psychology geek. You might be wondering, then why copywriting?</p>
+
+<br></br>
+
+      My background in psychology studies, published journalism, and professional copywriting makes an advertising career more of a passion than simply something that pays the bills.
+
+<br></br>
+
+      Understanding people, and what makes them tick, is kind of my thing.
+      I'm a team player, a go-getter, and a "what's the next challenge?" type of partner. 
+
+<br></br>
+<br></br>
+      
+      As for what kind of a writer I am? To answer I'd ask, "Who exactly am I writing for?"</p>
     // <div className="aboutContainer container">
     //   <div className="row">
     //     <motion.div

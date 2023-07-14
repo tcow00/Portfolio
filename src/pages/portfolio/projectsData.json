@@ -1,21 +1,21 @@
 [
   {
-    "title": "Bike Buddy",
+    "title": "Published Pieces",
     "image": "./projectImages/bike.png",
-    "description": "I was responsible for the routing functionality of Bike Buddy, an application that helps parents and guardians keep their children safe while cycling. Utilises the Leaflet.js library and TomTom Routing/Reverse Geolocation API's to create an interactive and visually appealing map that allows a user to plot a route, taking into account various factors such as traffic levels, bicycle lanes, and elevation.",
+    "description": "Before realizing my passion for creative writing, I enjoyed a summer of reporting at the Columbia Missourian during the summer of 2020. This summer posed a unique set of challenges. The first challenge was transitioning all newspaper operations to a fully virtual work environment, while publishing a daily print and online edition. The second challenge was on-the-ground reporting during a summer of pandemic restrictions and civil unrest.",
     "technologies": "Leaflet | jQuery | Bootstrap",
     "github": "https://github.com/mdyeates/bike-buddy",
-    "deployed": "https://norrinradd8.github.io/bike_buddy/",
+    "deployed": "https://www.columbiamissourian.com/search/?l=25&sort=relevance&f=html&t=article%2Cvideo%2Cyoutube%2Ccollection&app=editorial&nsa=eedition&q=teresa+cowden",
     "bgcolor": "#f37737",
     "id": "1"
   },
   {
-    "title": "Weather",
+    "title": "Agency Work",
     "image": "./projectImages/weather.png",
     "technologies": "jQuery | HTML | CSS",
-    "description": " This dashboard uses the OpenWeatherMap API to retrieve detailed weather data, including the city name, date, weather icon, temperature, humidity, and wind speed. The dashboard has a 5-day forecast feature and a search history feature that saves past searches for easy access. It also has a dark/light theme that changes the look of the page based on day or night in the searched location and uses the geolocation API to automatically determine the user's current location and display the weather.",
+    "description": "This campaign spanned 4 social media platforms (instagram, twitter, LinkedIn and Facebook), with a a hybrid paid and organic media strategy. The goal? Garner interest for the annual 'State of The YAYA Report.' As lead copywriter, I played an integral role in the development of the campaign story, social media copy, print report, and presentation + script. To attract the distracted eyes and content preferences of Gen Z, our campaign personified that mysterious, macabre feel that's in-tune with Gen Z's horror genre fascination.",
     "github": "https://github.com/mdyeates/weather-app",
-    "deployed": "https://mdyeates.github.io/weather-app/",
+    "deployed": "https://issuu.com/mojoadvertising/docs/pagessmallsoy",
     "bgcolor": "#29cbe0",
     "id": "2"
   },
