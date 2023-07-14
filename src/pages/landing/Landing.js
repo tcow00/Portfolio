@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import Typewriter from "typewriter-effect";
 import landingImage from "../../images/me.svg";
 import Draw from "../../components/Draw";
-import SocialIcons from "../../components/SocialIcons";
+// import SocialIcons from "../../components/SocialIcons";
 import Header from "../../components/Header";
 
 
