@@ -3,6 +3,8 @@ import Typewriter from "typewriter-effect";
 import landingImage from "../../images/me.svg";
 import Draw from "../../components/Draw";
 import SocialIcons from "../../components/SocialIcons";
+import Header from "../../components/Header";
+
 
 const Landing = ({ name }) => {
   const styles = {
@@ -13,13 +15,13 @@ const Landing = ({ name }) => {
       alignItems: "center",
     },
 
-    landingImage: {
-      position: "absolute",
-      bottom: "0",
-      opacity: "0.3",
-      mixBlendMode: "lighten",
-      height: "80%",
-    },
+    // landingImage: {
+    //   position: "absolute",
+    //   bottom: "0",
+    //   opacity: "0.3",
+    //   mixBlendMode: "lighten",
+    //   height: "80%",
+    // },
 
     textContainer: {
       display: "flex",
@@ -40,6 +42,8 @@ const Landing = ({ name }) => {
   };
 
   return (
+    <>
+    <Header />
     <section className="landing" style={styles.landing}>
       <Draw />
       <div className="textContainer" style={styles.textContainer}>
@@ -52,14 +56,14 @@ const Landing = ({ name }) => {
             onInit={(typewriter) => {
               typewriter
                 .changeDelay(80)
-                .typeString("I'm a Software Engineer")
+                .typeString("I'm a Dweeb Ass")
                 .pauseFor(1500)
                 .deleteAll()
-                .typeString("Code. ")
+                .typeString("Sleep. ")
                 .pauseFor(500)
-                .typeString("Create. ")
+                .typeString("Eat. ")
                 .pauseFor(500)
-                .typeString("Innovate.")
+                .typeString("Repeat.")
 
                 .start();
             }}
@@ -77,8 +81,9 @@ const Landing = ({ name }) => {
           alt="Michael Yeates"
         />
       </div>
-      <SocialIcons />
+      {/* <SocialIcons /> */}
     </section>
+    </>
   );
 };
 

@@ -5,13 +5,15 @@ import About from "../pages/about/About";
 import Portfolio from "../pages/portfolio/Portfolio";
 import Contact from "../pages/contact/Contact";
 import PageNotFound from "../pages/404/PageNotFound";
+import Splash from "../pages/splash/Splash";
 
 const AnimatedRoutes = ({ personalDetails }) => {
   const location = useLocation();
 
   return (
     <Routes location={location} key={location.pathname}>
-      <Route path="/" element={<Landing name={personalDetails.name} tagline={personalDetails.tagline} />} />
+      <Route path="/" element={<Splash name={personalDetails.name} tagline={personalDetails.tagline} />} />
+      <Route path="/home" element={<Landing name={personalDetails.name} tagline={personalDetails.tagline} />} />
       <Route
         path="/about"
         element={

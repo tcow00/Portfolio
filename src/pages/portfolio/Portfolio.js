@@ -1,6 +1,8 @@
 import projectData from "./projectsData.json";
 import Project from "../../components/Project";
 import PageHeader from "../../components/PageHeader";
+import Header from "../../components/Header";
+
 
 const Portfolio = () => {
   const ProjectList = () =>
@@ -19,12 +21,15 @@ const Portfolio = () => {
     ));
 
   return (
+    <>
+    <Header />
     <section className="portfolio">
       <PageHeader title="Portfolio" description="View my work" />
       <div className="row">
         <ProjectList />
       </div>
     </section>
+    </>
   );
 };
 

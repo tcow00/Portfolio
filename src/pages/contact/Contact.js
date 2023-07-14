@@ -2,9 +2,13 @@ import PageHeader from "../../components/PageHeader";
 import SocialIcons from "../../components/SocialIcons";
 import Form from "../../components/Form";
 import ContactInfo from "../../components/ContactInfo";
+import Header from "../../components/Header";
+
 
 const Contact = ({ name, email, location }) => {
   return (
+    <>
+    <Header />
     <section className="contact">
       <PageHeader title="Contact" description="Get in touch" />
       <div className="contactWrap container">
@@ -19,6 +23,7 @@ const Contact = ({ name, email, location }) => {
       </div>
       <SocialIcons />
     </section>
+    </>
   );
 };
 

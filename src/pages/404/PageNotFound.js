@@ -1,8 +1,12 @@
 import PageHeader from "../../components/PageHeader";
 import { Link } from "react-router-dom";
+import Header from "../../components/Header";
+
 
 const PageNotFound = () => {
   return (
+    <>
+    <Header />
     <section className="error">
       <PageHeader title="404 Page Not Found" description="Uh oh!" />
       <div className="error-description">
@@ -17,6 +21,7 @@ const PageNotFound = () => {
         </div>
       </div>
     </section>
+    </>
   );
 };
 
